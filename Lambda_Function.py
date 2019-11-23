@@ -20,3 +20,14 @@ def my_func(n):
 
 my_sum = my_func(3)
 print(my_sum(10))
+
+
+# write a lambda function that sums arguments a, b, c
+# and prints the result
+
+def _lambda_three_args(a, b, c):
+    return lambda l: l + a + b + c
+
+
+result = _lambda_three_args(1, 2, 3)
+print(result(0))
