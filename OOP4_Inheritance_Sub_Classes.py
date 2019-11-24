@@ -42,6 +42,10 @@ class ParentClassEmployees:
             return False
         return True
 
+    @staticmethod
+    def print_nothing_important(hello):
+        print(hello)
+
 
 employee_1 = ParentClassEmployees('Mitchell', 'Johnson', 'mitch_john@company.com', 50000)
 employee_2 = ParentClassEmployees('Benjamin', 'Stokes', 'ben_stokes@company.com', 60000)

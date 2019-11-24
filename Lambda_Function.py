@@ -31,3 +31,9 @@ def _lambda_three_args(a, b, c):
 
 result = _lambda_three_args(1, 2, 3)
 print(result(0))
+
+
+class Important:
+    from OOP4_Inheritance_Sub_Classes import ParentClassEmployees
+    ParentClassEmployees.print_nothing_important('Trying to print some thing')
+
